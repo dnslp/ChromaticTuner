@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		BE5B18DA2E13257F00D15D28 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BE5B18C12E13257E00D15D28 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BE5B18C82E13257E00D15D28;
+			remoteInfo = ChromaticTuner;
+		};
+		BE5B18E42E13257F00D15D28 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BE5B18C12E13257E00D15D28 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BE5B18C82E13257E00D15D28;
+			remoteInfo = ChromaticTuner;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BE5B18C92E13257E00D15D28 /* ChromaticTuner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChromaticTuner.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE5B18D92E13257F00D15D28 /* ChromaticTunerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChromaticTunerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE5B18E32E13257F00D15D28 /* ChromaticTunerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChromaticTunerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		BE5B18CB2E13257E00D15D28 /* ChromaticTuner */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ChromaticTuner;
+			sourceTree = "<group>";
+		};
+		BE5B18DC2E13257F00D15D28 /* ChromaticTunerTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ChromaticTunerTests;
+			sourceTree = "<group>";
+		};
+		BE5B18E62E13257F00D15D28 /* ChromaticTunerUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ChromaticTunerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BE5B18C62E13257E00D15D28 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE5B18D62E13257F00D15D28 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE5B18E02E13257F00D15D28 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BE5B18C02E13257E00D15D28 = {
+			isa = PBXGroup;
+			children = (
+				BE5B18CB2E13257E00D15D28 /* ChromaticTuner */,
+				BE5B18DC2E13257F00D15D28 /* ChromaticTunerTests */,
+				BE5B18E62E13257F00D15D28 /* ChromaticTunerUITests */,
+				BE5B18CA2E13257E00D15D28 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BE5B18CA2E13257E00D15D28 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BE5B18C92E13257E00D15D28 /* ChromaticTuner.app */,
+				BE5B18D92E13257F00D15D28 /* ChromaticTunerTests.xctest */,
+				BE5B18E32E13257F00D15D28 /* ChromaticTunerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BE5B18C82E13257E00D15D28 /* ChromaticTuner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE5B18ED2E13257F00D15D28 /* Build configuration list for PBXNativeTarget "ChromaticTuner" */;
+			buildPhases = (
+				BE5B18C52E13257E00D15D28 /* Sources */,
+				BE5B18C62E13257E00D15D28 /* Frameworks */,
+				BE5B18C72E13257E00D15D28 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				BE5B18CB2E13257E00D15D28 /* ChromaticTuner */,
+			);
+			name = ChromaticTuner;
+			packageProductDependencies = (
+			);
+			productName = ChromaticTuner;
+			productReference = BE5B18C92E13257E00D15D28 /* ChromaticTuner.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BE5B18D82E13257F00D15D28 /* ChromaticTunerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE5B18F02E13257F00D15D28 /* Build configuration list for PBXNativeTarget "ChromaticTunerTests" */;
+			buildPhases = (
+				BE5B18D52E13257F00D15D28 /* Sources */,
+				BE5B18D62E13257F00D15D28 /* Frameworks */,
+				BE5B18D72E13257F00D15D28 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BE5B18DB2E13257F00D15D28 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				BE5B18DC2E13257F00D15D28 /* ChromaticTunerTests */,
+			);
+			name = ChromaticTunerTests;
+			packageProductDependencies = (
+			);
+			productName = ChromaticTunerTests;
+			productReference = BE5B18D92E13257F00D15D28 /* ChromaticTunerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BE5B18E22E13257F00D15D28 /* ChromaticTunerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE5B18F32E13257F00D15D28 /* Build configuration list for PBXNativeTarget "ChromaticTunerUITests" */;
+			buildPhases = (
+				BE5B18DF2E13257F00D15D28 /* Sources */,
+				BE5B18E02E13257F00D15D28 /* Frameworks */,
+				BE5B18E12E13257F00D15D28 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BE5B18E52E13257F00D15D28 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				BE5B18E62E13257F00D15D28 /* ChromaticTunerUITests */,
+			);
+			name = ChromaticTunerUITests;
+			packageProductDependencies = (
+			);
+			productName = ChromaticTunerUITests;
+			productReference = BE5B18E32E13257F00D15D28 /* ChromaticTunerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BE5B18C12E13257E00D15D28 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					BE5B18C82E13257E00D15D28 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					BE5B18D82E13257F00D15D28 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = BE5B18C82E13257E00D15D28;
+					};
+					BE5B18E22E13257F00D15D28 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = BE5B18C82E13257E00D15D28;
+					};
+				};
+			};
+			buildConfigurationList = BE5B18C42E13257E00D15D28 /* Build configuration list for PBXProject "ChromaticTuner" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BE5B18C02E13257E00D15D28;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = BE5B18CA2E13257E00D15D28 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BE5B18C82E13257E00D15D28 /* ChromaticTuner */,
+				BE5B18D82E13257F00D15D28 /* ChromaticTunerTests */,
+				BE5B18E22E13257F00D15D28 /* ChromaticTunerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BE5B18C72E13257E00D15D28 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE5B18D72E13257F00D15D28 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE5B18E12E13257F00D15D28 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BE5B18C52E13257E00D15D28 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE5B18D52E13257F00D15D28 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE5B18DF2E13257F00D15D28 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BE5B18DB2E13257F00D15D28 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BE5B18C82E13257E00D15D28 /* ChromaticTuner */;
+			targetProxy = BE5B18DA2E13257F00D15D28 /* PBXContainerItemProxy */;
+		};
+		BE5B18E52E13257F00D15D28 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BE5B18C82E13257E00D15D28 /* ChromaticTuner */;
+			targetProxy = BE5B18E42E13257F00D15D28 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		BE5B18EB2E13257F00D15D28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BE5B18EC2E13257F00D15D28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BE5B18EE2E13257F00D15D28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ChromaticTuner/Preview Content\"";
+				DEVELOPMENT_TEAM = PFGM5X4HD6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = DNSLP.ChromaticTuner;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BE5B18EF2E13257F00D15D28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ChromaticTuner/Preview Content\"";
+				DEVELOPMENT_TEAM = PFGM5X4HD6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = DNSLP.ChromaticTuner;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BE5B18F12E13257F00D15D28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PFGM5X4HD6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = DNSLP.ChromaticTunerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChromaticTuner.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ChromaticTuner";
+			};
+			name = Debug;
+		};
+		BE5B18F22E13257F00D15D28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PFGM5X4HD6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = DNSLP.ChromaticTunerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChromaticTuner.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ChromaticTuner";
+			};
+			name = Release;
+		};
+		BE5B18F42E13257F00D15D28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PFGM5X4HD6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = DNSLP.ChromaticTunerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ChromaticTuner;
+			};
+			name = Debug;
+		};
+		BE5B18F52E13257F00D15D28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PFGM5X4HD6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = DNSLP.ChromaticTunerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ChromaticTuner;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BE5B18C42E13257E00D15D28 /* Build configuration list for PBXProject "ChromaticTuner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE5B18EB2E13257F00D15D28 /* Debug */,
+				BE5B18EC2E13257F00D15D28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE5B18ED2E13257F00D15D28 /* Build configuration list for PBXNativeTarget "ChromaticTuner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE5B18EE2E13257F00D15D28 /* Debug */,
+				BE5B18EF2E13257F00D15D28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE5B18F02E13257F00D15D28 /* Build configuration list for PBXNativeTarget "ChromaticTunerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE5B18F12E13257F00D15D28 /* Debug */,
+				BE5B18F22E13257F00D15D28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE5B18F32E13257F00D15D28 /* Build configuration list for PBXNativeTarget "ChromaticTunerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE5B18F42E13257F00D15D28 /* Debug */,
+				BE5B18F52E13257F00D15D28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BE5B18C12E13257E00D15D28 /* Project object */;
+}
